@@ -1,0 +1,81 @@
+div form{
+    margin: auto;
+    border-radius: 20px;
+    max-width: 50vw;
+    min-height: 60vh;
+    border: 0.1px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 70, 70);
+}
+input , label{
+    padding: 20px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+}
+textarea{
+     padding: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 90px;
+    margin: auto;
+    color: black;
+    background-color: white;
+    
+}
+button:active{
+    background-color:rgb(168, 168, 168);
+    color: white;
+     scale: 0.9;
+}
+.line{
+    margin: 20px;
+    border: 2px dotted rgb(248, 251, 248);
+}
+.notes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.card{
+    margin: 10px;
+    width: 20vw;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png');
+   background-size: cover;
+    ;
+    color: black;
+    height: 50vh;
+    white-space: normal;
+    overflow-wrap:anywhere;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding: 25px 20px 0px 20px;
+    text-align: left;
+     display: flex;
+  flex-direction: column;
+ 
+}
+.heading{
+ font-weight: bold;
+ text-align: center;
+}
+.detail{
+    padding-top: 6px;
+    line-height: 40px;
+    margin-left: 30px;
+ color: rgb(243, 108, 108);
+}
+.dltbtn{
+    
+     margin-bottom:30px ;
+    background-color: antiquewhite;
+    color: black;
+}
